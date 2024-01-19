@@ -1,0 +1,111 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  border: 5px rgb(64, 71, 201);
+  background-color: rgb(73, 79, 190);
+  border-radius: 5px;
+}
+
+.formContainer label {
+  color: aliceblue;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 10px;
+  text-align: right; /* Align labels to the right */
+  width: 100px; /* Set a fixed width for labels */
+}
+
+.formContainer input {
+  margin-left: 10px; /* Add margin to the left */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  border: 5px rgb(64, 71, 201);
+  background-color: rgb(73, 79, 190);
+  border-radius: 5px;
+}
+
+.formContainer label {
+  color: aliceblue;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 10px;
+  text-align: right; /* Align labels to the right */
+  width: 100px; /* Set a fixed width for labels */
+}
+
+.formContainer input {
+  margin-left: 10px; /* Add margin to the left */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.error {
+  color: red; /* Set the text color to red */
+  font-size: 16px; /* Set the font size as desired */
+  margin-top: -10px; /* Adjust the margin to align with the fields */
+  text-align: right; /* Align the error messages to the right */
+}
+.Signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background-image: url('../public/online-shopping-g5fad57002_1280.png'); /* Add the path to your logo image file */
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position:top;
+}
+.formContainer button{
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  margin: 20px auto; /* Add margin: 20px auto; to center the button horizontally */
+  background-color: white;
+  align-self: center;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  background-color: white;
+  
+}
+.formContainer:hover{
+  cursor:pointer;
+  background-color: rgb(80, 90, 190);
+}
+.formContainer button:hover{
+  cursor: pointer;
+  background-color: rgb(191, 202, 214);
+}
+.formContainer input:hover{
+  cursor: pointer;
+  border-color: rgb(5, 0, 5);
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; /* Adjust the margin-top value as needed */
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
